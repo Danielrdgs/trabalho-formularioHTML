@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@media (max-width: 768px){
+    form{
+        padding: 10px;
+    }
+}
+
+#titulo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(51, 44, 255);
+    margin-left: 10%;
+    text-shadow: 0.1em 0.1em 0.1em black
+}
+#subtitulo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkblue;
+    margin-left: 13%;
+}
+
+fieldset{
+border: 4;
+}
+
+body{
+background-color: rgb(215, 234, 255);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 2m;
+color: black;
+margin-left: 30%;
+margin-right: 30%;
+margin-top: 5%;
+justify-content: center;
+}
+
+input, select, textarea, button{
+    border-radius: 10px;
+
+}
+
+.campo{
+    margin-bottom: 1em;
+}
+
+.campo{
+    margin-bottom: 0.2em;
+    color: black;
+    display: block;
+}
+
+fieldset.grupo .campo{
+float: left;
+margin-right: 5em;
+
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
+padding: 0.3em;
+border: 3px solid rgb(0, 1, 11);
+box-shadow: 2px 2px 2px rgb(rgb(0, 0, 7));
+}
+
+.campo select option{
+padding-right: 4em;
+
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus{
+background: rgb(186, 213, 255);
+
+}
+.botao{
+    background: rgb(63, 94, 181);
+    border: 0;
+    margin-bottom: 2em;
+    color: rgb(33, 53, 111);
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgb(0, 1, 8);
+    text-shadow: 1px 1px 1px rgb(0, 0, 14);
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+.botao:hover{
+    background: rgb(51, 61, 156);
+
+}
+
+#tudo{
+    padding: 2%;
+    border: 3px #acccff solid;
+    border-radius: 15px;
+    box-shadow: 10px 20px grey;
+    background-image: url(aesthetic-cute-pastel-blue-abstract-minimal-wallpaper-illustration-perfect-wallpaper-backdrop-postcard-background-banner_565280-863.avif);
+    background-attachment: scroll;
+    background-size: cover;
+}
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}

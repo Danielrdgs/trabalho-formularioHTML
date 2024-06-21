@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Formulário</title>
+</head>
+<body id="tudo">
+    <div>
+        <h1 id="titulo">Cadastro</h1>
+        <p id="subtitulo">Preencha o formulário</p>
+        <br>
+        </div>
+    
+        <form> 
+        <fieldset class="grupo">
+            <div>
+                <label for="nome">Nome</label required>
+                <input type="text" name="nome" id="nome">
+            </div>
+    <br>
+            <div>
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" name="sobrenome" id="sobrenome">
+            </div>
+        </fieldset>
+    <br>
+    <br>
+        <div class="campo">
+            <label for="email">Email</label required>
+            <input type="email" name="email" id="email">
+        </div>
+        <br>
+        <div class="campo">
+            <label>Senha</label required>
+            <input type="password" name="senha" id="senha">
+        </div>
+    <br><br>
+        <div class="campo">
+            <label>Qual o seu gênero?</label required>
+            <label>
+                <input type="radio" name="devweb" id="masculino" checked>Masculino
+            </label>
+            <label>
+                <input type="radio" name="devweb" id="feminino">Feminino
+            </label>
+            <label>
+                <input type="radio" name="devweb" id="prefironaodizer">Prefiro não dizer
+            </label>
+        </div>
+    <br>
+        <div>
+            <label for="cor">Sua cor</label>
+            <select id="cor">
+                <option selected disabled value="">Selecione</option>
+                <option>Amarelo</option>
+                <option>Branco</option>
+                <option>Pardo</option>
+                <option>Preto</option>
+            </select>
+            
+        </div>
+    <br><br>
+    <fieldset class="grupo">
+        <div  class="campo">
+            <label>Selecione quais tecnologias você tem em casa:</label><br><br>
+            <input type="checkbox" name="celular" id="celular" value="celular">
+            <label for="celular">Celular</label>
+            <input type="checkbox" name="tablet" id="tablet" value="tablet">
+            <label for="tablet">Tablet</label>
+            <input type="checkbox" name="notebook" id="notebook" value="notebook">
+            <label for="notebook">Notebook</label>
+            <input type="checkbox" name="computador" id="computador" value="computador">
+            <label for="computador">Computador</label>
+            
+        </div>
+    </fieldset>
+    <br><br>
+    <div class="campo">
+        <br>
+        <label>O que achou do formulário?</label required>
+        <textarea row="5" style="width: 26em" id="feedback" name="feedback"></textarea>
+    </div>
+    <br><br>
+    <button type="submit">Concluir</button>
+    
+        </form>
+
+
+<footer>
+    <p>&copy; 2024</p>
+        <p>Entre em contato pelo e-mail: carlos.almeida104@aluno.ce.gov.br</p>
+            <nav>
+                <ul>
+                    <li><a href="#">2º INFORMÁTICA</a></li>
+                </ul>
+        </nav>
+</footer>
+</body>
+</html>
